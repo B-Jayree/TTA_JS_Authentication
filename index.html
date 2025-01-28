@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication system</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="login-container">
+        <h2>Login</h2>
+        <p id="errorMessage" class="error-message"></p>
+        <p id="successMessage" class="success-message"></p>
+        <form  id="loginform">
+            <label for="userName">Username:</label>
+            <input type="text" id="userName" placeholder="Please Enter Your Username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Please Enter Your Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
