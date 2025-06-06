@@ -64,7 +64,6 @@ button:hover {
     margin: 5px 0;
     text-align: center;
 }
-
 .content {
     width: 400px;
     padding: 20px;
@@ -72,7 +71,7 @@ button:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0, 0.1);
 }
-.content h2{
+.content h1{
     margin: 5px 0px;
     color: #333;
     text-align: center;
@@ -81,11 +80,42 @@ button:hover {
     margin: 10px 0;
     color: #333;
  }
-
- .logout-button{
+  .logout-button{
     width:95%;
     background-color: #ff1a1a;
  }
  .logout-button :hover{
     background-color: #ff1a1a;
+ }
+.create-button{
+ background-color: green;
+ }
+ .create-button:hover{
+    background-color: lightgreen;
+ }
+ .user-management {
+     width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+
+    margin : 0 10px;
+ }
+ .user-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10PX;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+ }
+ .user-row select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+
  }
